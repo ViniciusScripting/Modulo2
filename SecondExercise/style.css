@@ -10,10 +10,10 @@ p {
     color: green;
 }
 
-li[value = 4] {
+li[value="4"] {
     color: blue;
 }
 
-.note, p, h1 {
+* {
     text-align: center;
 }
