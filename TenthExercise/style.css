@@ -1,0 +1,19 @@
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.box > .done {
+    color: firebrick;
+}
+
+.list {
+    color: blue;
+}
+
+div ul .done{
+    color: green
+}
