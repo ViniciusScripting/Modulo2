@@ -9,38 +9,53 @@
     body {
         background-color: black;
     }
+    
     div div {
-        background-color: darkblue;
+        background-color: #002469;
         width: 400px;
         height: 150px;
         position: relative;
-        left: 10px;
-        top: 10;
-    }
+        left: 10px; 
 
-    div div p {
+    } 
+
+    .flag {
+      text-align: center;
+    }
+    
+    div > div > p {
         background-color: white;
         border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        left: 175px;
-        top: 50px;
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 160px;
+        top: -85px;
+
     }
+
     div p {
-        background: red;
+        color: white;
+        background: #DC0024;
         width: 400px;
         height: 50px;
         position: relative;
         left: 10px;
-        top: 30px;
+        text-align: center;
+        top: 15px;
+        
     }
 
-    div div div {
-        background: red;
+    div > div > div > p {
+      color: black;
+      text-align: center;
+    }
+    
+    div > div > div {
+        background: #DC0024;
         width: 400px;
         height: 50px;
-        position: absolute;
+        position: relative;
         left: 0px;
         top: 100px;
     }
@@ -52,7 +67,7 @@
     <p>The Flag</p>
     <div>
       <div>
-        <p>of Laos</p>
+        <p>of <br />Laos</p>
       </div>
     </div>
   </div>
